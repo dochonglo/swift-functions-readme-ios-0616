@@ -23,7 +23,7 @@ func sayHelloToScratchy() {
     print("Hello, Scratchy, why do you sleep so much?")
 }
 
-
+// Helps us consolidate the previous 3 methods into 1 by accepting a catName parameter.
 func sayHelloToCat(catName: String) {
     print("Hello, \(catName), why do you sleep so much?")
 }
@@ -34,4 +34,4 @@ let catFriend = "Socks"
 sayHelloToCat(catFriend)
 
 // Uncomment this line to see the error that is printed in the console.
-//sayHelloToCat()
+//sayHelloToCat() // This does not work because the function requires an input parameter of type string.
